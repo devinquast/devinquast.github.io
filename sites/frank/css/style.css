@@ -1,0 +1,145 @@
+.background_text
+{
+    position: fixed;
+    left:-20%;
+    top:20px;
+    font-size:25em;
+    animation:movetext 12.16216s ease-in infinite;
+    float:both;
+    z-index: -15;
+}
+.background_image
+{
+    width:656px;
+    height:656px;
+    background-image: url(../img/biking.png);
+    position: fixed;
+    left:100%;
+    top:300px;
+    animation:moveimage 12.16216s ease-in-out infinite;
+    float:both;
+    z-index: -10;
+}
+
+.lyrics {
+    width: 600px;
+    font-size:1.4em;
+    font-family: sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    clear:none;
+    animation:textweight 12.16216s infinite;
+  }
+
+@keyframes textweight
+{
+    0%
+    {
+        color:black;
+    }
+    20%
+    {
+        color:rgba(235, 232, 211, 1);
+    }
+    40%
+    {
+        color:white;
+    }
+    60%
+    {
+        color:rgba(119, 126, 36, .5);
+    }
+    80%
+    {
+        color:white;
+    }
+    90%
+    {
+        color:rgba(235, 232, 211, .7);
+    }
+    100%
+    {
+        color:rgba(119, 126, 36, 1);
+    }
+}
+
+
+@keyframes moveimage
+{
+    0%
+    {
+        left:100%;
+        top:300px;
+    }
+    20%
+    {
+        left:-20%;
+        top:250px;
+    }
+    40%
+    {
+        left:-20%;
+        top:20px;  
+    }
+    60%
+    {
+        left:-20%;
+        top:40px;
+    }
+    80%
+    {
+        left:50%;
+        top:200px;
+    }
+    90%
+    {
+        left:-20%;
+        top:250px;
+    }
+    100%
+    {
+        left:100%;
+        top:300px;
+    }
+}
+
+@keyframes movetext
+{
+    0%
+    {
+        left:-20%;
+        top:20px;
+    }
+    20%
+    {
+        left:50%;
+        top:200px;
+    }
+    40%
+    {
+        left:20%;
+        top:20px;
+    }
+    60%
+    {
+        left:-20%;
+        top:-80px;
+    }
+    80%
+    {
+        left:100%;
+        top:300px;
+    }
+    90%
+    {
+        left:-20%;
+        top:250px;
+    }
+    100%
+    {
+        left:-20%;
+        top:20px;
+    }
+}
