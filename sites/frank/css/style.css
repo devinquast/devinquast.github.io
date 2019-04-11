@@ -12,7 +12,7 @@
 {
     width:656px;
     height:656px;
-    background-image: url(../img/biking.png);
+    background:url("../img/biking.png");
     position: fixed;
     left:100%;
     top:300px;
@@ -29,11 +29,12 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    margin-top:200px;
     clear:none;
-    animation:textweight 12.16216s infinite;
+    animation:textcolor 12.16216s infinite;
   }
 
-@keyframes textweight
+@keyframes textcolor
 {
     0%
     {
@@ -95,12 +96,12 @@
     }
     90%
     {
-        left:-20%;
+        left:30%;
         top:250px;
     }
     100%
     {
-        left:100%;
+        left:60%;
         top:300px;
     }
 }
@@ -111,35 +112,42 @@
     {
         left:-20%;
         top:20px;
+        z-index: -5;
     }
     20%
     {
         left:50%;
         top:200px;
+        z-index: -15;
     }
     40%
     {
         left:20%;
         top:20px;
+        z-index: -5;
     }
     60%
     {
         left:-20%;
         top:-80px;
+        z-index: -15;
     }
     80%
     {
         left:100%;
         top:300px;
+        z-index: 5;
     }
     90%
     {
         left:-20%;
         top:250px;
+        z-index: -5;
     }
     100%
     {
         left:-20%;
         top:20px;
+        z-index: 5;
     }
 }
