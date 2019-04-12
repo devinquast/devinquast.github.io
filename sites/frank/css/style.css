@@ -1,10 +1,57 @@
+.background_color
+{
+    
+    
+    float:both;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:-50;
+}
+
+.frank
+{
+    background:  url(../img/frank.png) no-repeat center center;
+    
+    height:546px;
+    width:400px;
+    background-size:99%;
+    position: fixed;
+    right:5%;
+    bottom:20px;
+    z-index:20; 
+    transform: rotateY(90deg);
+    animation: rotate 1.216216s linear 64s 1; 
+    animation-fill-mode: forwards;
+}
+
+.jay
+{
+    background:  url(../img/jay.png) no-repeat center center;
+    
+    height:546px;
+    width:400px;
+    background-size:99%;
+    position: fixed;
+    right:5%;
+    bottom:20px;
+    z-index:20; 
+    transform: rotateY(90deg);
+    
+    animation: jay 65s 1;
+    animation-fill-mode: forwards;
+    z-index:19;
+}
+
 .background_text
 {
     position: fixed;
     left:-20%;
     top:20px;
     font-size:25em;
-    animation:movetext 12.16216s ease-in infinite;
+    animation:movetext 24.32432s ease-in .02s infinite;
     float:both;
     z-index: -15;
 }
@@ -13,10 +60,11 @@
     width:656px;
     height:656px;
     background:url("../img/biking.png");
+    background-size: cover;
     position: fixed;
     left:100%;
     top:300px;
-    animation:moveimage 12.16216s ease-in-out infinite;
+    animation:moveimage 12.16216s ease-in-out .02s infinite;
     float:both;
     z-index: -10;
 }
@@ -31,38 +79,89 @@
     margin-left: auto;
     margin-top:200px;
     clear:none;
-    animation:textcolor 12.16216s infinite;
+    animation:textcolor 12.16216s linear .1216216s infinite;
+    z-index:100;
   }
+
+@keyframes jay
+  {
+      
+    0%
+    {
+        transform: rotateY(90deg),;
+    }  
+    5%
+    {
+        transform: rotateY(0deg);
+         
+    }
+    99%
+      {
+          transform: rotateY(0deg);
+          transform: scale(1.0); 
+          bottom:20px;
+          right:5%;
+          z-index:1
+      }
+    100%
+      {
+          transform: rotateY(-90deg); 
+          transform: scale(.35);
+          bottom:150px;
+          right:19%;
+          z-index:-1;
+      }
+  }
+
+@keyframes rotate
+{
+    0%
+    {
+        transform: rotateY(90deg);   
+    }
+    100%
+    {
+        transform: rotateY(0deg); 
+    }
+}
 
 @keyframes textcolor
 {
     0%
     {
         color:black;
+        transform:rotateY(0deg);
     }
     20%
     {
         color:rgba(235, 232, 211, 1);
+        transform:rotateY(5deg);
     }
     40%
     {
         color:white;
+        transform:rotateX(0deg)
     }
     60%
     {
         color:rgba(119, 126, 36, .5);
+        transform:rotateY(0deg);
     }
     80%
     {
         color:white;
+        transform:rotateX(5deg)
     }
     90%
     {
         color:rgba(235, 232, 211, .7);
+        transform:rotateY(-5deg);
+        transform:rotateX(0deg)
     }
     100%
     {
         color:rgba(119, 126, 36, 1);
+        transform:rotateY(0deg);
     }
 }
 
@@ -73,36 +172,49 @@
     {
         left:100%;
         top:300px;
+        width:656px;
     }
+    
     20%
     {
         left:-20%;
         top:250px;
+        width:656px;
     }
+   
     40%
     {
         left:-20%;
         top:20px;  
+        width:656px;
     }
+    
     60%
     {
         left:-20%;
         top:40px;
+        width:656px;
     }
+   
     80%
     {
         left:50%;
         top:200px;
+        width:656px;
     }
+   
     90%
     {
-        left:30%;
+        left:35%;
         top:250px;
+        width:656px;
     }
+    
     100%
     {
-        left:60%;
+        left:100%;
         top:300px;
+        width:656px;
     }
 }
 
