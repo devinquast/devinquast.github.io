@@ -10,6 +10,17 @@
     right:0px;
     z-index:-50;
 }
+.frankyell
+{
+    background:  url(../img/mouth.gif) repeat center center;
+    height:100px;
+    width:100px;
+    position:fixed;
+    right: 5%;
+    top:100px;
+    
+    background-size: cover;
+}
 
 .frank
 {
