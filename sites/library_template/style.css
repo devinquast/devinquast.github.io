@@ -36,6 +36,14 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+
+h2
+{
+font-family: geom-graphic, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
 .flex-row {
   display: -webkit-box;
   display: flex;
