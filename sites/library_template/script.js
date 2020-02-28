@@ -2,7 +2,7 @@ var app = angular.module('app', ['ngAnimate'])
 
 app.controller('mainCtrl', function($scope) {
 	$scope.boxes = [{
-		name: 'Friends',
+		name: '',
 		image: 'https://images.squarespace-cdn.com/content/v1/5cafa1786e94560001e08fa5/1555115522439-EQ768UZLLBPW8Z2U028C/ke17ZwdGBToddI8pDm48kHeN-3lxkr-kEOtcijtVINxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIxDFKE9MjhJF9s9qm2nDZwoBKmsCv7em8klEJdRbhj_EKMshLAGzx4R3EDFOm1kBS/18_DANCING.png?format=1500w'
 	},{
 		name: 'Free',
