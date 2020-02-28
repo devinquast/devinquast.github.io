@@ -109,7 +109,7 @@ app.directive('bigBox', function($timeout) {
 			$timeout(function() {
 				element.css({
 					width: '80%',
-					height: '100%'
+					height: '30%'
 				})
 			}, 500)
 			
