@@ -5,8 +5,8 @@ app.controller('mainCtrl', function($scope) {
 		name: '',
 		image: 'https://images.squarespace-cdn.com/content/v1/5cafa1786e94560001e08fa5/1555115522439-EQ768UZLLBPW8Z2U028C/ke17ZwdGBToddI8pDm48kHeN-3lxkr-kEOtcijtVINxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIxDFKE9MjhJF9s9qm2nDZwoBKmsCv7em8klEJdRbhj_EKMshLAGzx4R3EDFOm1kBS/18_DANCING.png?format=1500w'
 	},{
-		name: 'Free',
-		image: 'https://source.unsplash.com/Cp-LUHPRpWM/900x900'
+		name: '',
+		image: 'https://images.squarespace-cdn.com/content/v1/5cafa1786e94560001e08fa5/1561481355583-P4KMJLPG9EM9NDJWSMV0/ke17ZwdGBToddI8pDm48kOIsK0oGjUDSfNnLrw65wjJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdqnzFwFzuj0rb6vWn_u4071zVBgCJCQ8-G3JDGHvWC2MW9u6oXQZQicHHG1WEE6fg/Screen+Shot+2019-06-25+at+11.47.36+AM.png?format=2500w'
 	},{
 		name: 'Explore',
 		image: 'https://source.unsplash.com/7BjmDICVloE/900x900'
@@ -100,15 +100,15 @@ app.directive('bigBox', function($timeout) {
 
 			$timeout(function() {
 				element.css({
-					top: '50%',
-					left: '10%'
+					top: '70%',
+					left: '17.5%'
 				})
 				element.addClass('image-out');
 			}, 200)
 
 			$timeout(function() {
 				element.css({
-					width: '80%',
+					width: '65%',
 					height: '30%'
 				})
 			}, 500)
