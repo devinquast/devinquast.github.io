@@ -3,8 +3,7 @@ var app = angular.module('app', ['ngAnimate'])
 app.controller('mainCtrl', function($scope) {
 	$scope.boxes = [{
 		name: '',
-		image: 'https://images.squarespace-cdn.com/content/v1/5cafa1786e94560001e08fa5/1555115522439-EQ768UZLLBPW8Z2U028C/ke17ZwdGBToddI8pDm48kHeN-3lxkr-kEOtcijtVINxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIxDFKE9MjhJF9s9qm2nDZwoBKmsCv7em8klEJdRbhj_EKMshLAGzx4R3EDFOm1kBS/18_DANCING.png?format=1500w',
-		text: "First Image"
+		image: 'https://images.squarespace-cdn.com/content/v1/5cafa1786e94560001e08fa5/1555115522439-EQ768UZLLBPW8Z2U028C/ke17ZwdGBToddI8pDm48kHeN-3lxkr-kEOtcijtVINxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIxDFKE9MjhJF9s9qm2nDZwoBKmsCv7em8klEJdRbhj_EKMshLAGzx4R3EDFOm1kBS/18_DANCING.png?format=1500w'
 	},{
 		name: '',
 		image: 'https://images.squarespace-cdn.com/content/v1/5cafa1786e94560001e08fa5/1561481355583-P4KMJLPG9EM9NDJWSMV0/ke17ZwdGBToddI8pDm48kOIsK0oGjUDSfNnLrw65wjJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdqnzFwFzuj0rb6vWn_u4071zVBgCJCQ8-G3JDGHvWC2MW9u6oXQZQicHHG1WEE6fg/Screen+Shot+2019-06-25+at+11.47.36+AM.png?format=2500w'
@@ -74,8 +73,6 @@ app.directive('box', function() {
 			element.css({
 				'background-image': 'url(' + scope.box.item.image + ')'
 			})
-			
-
 		}
 	}
 })
@@ -114,14 +111,10 @@ app.directive('bigBox', function($timeout) {
 					width: '65%',
 					height: '30%'
 				})
-				
 			}, 500)
 			
 			$timeout(function(){
 				element.addClass('show');
-				(function(){
-					document.getElementById('alterText').innerHTML = "Building on Target’s legacy of transforming and impactful Branding work, this was the fist effort done in nearly five years. The goal was to make sure no one felt that gap while creating something entirely new. It has become a major campaign as concept stores, in-store, out of home, digital, social and even new Target shopping bags. Starting with a complete deconstruction of the Bullseye, yet keeping life squarely in the center, it remains immediately recognizable as Target, often without a logo at all. Maintaining the spirit and aspirations of the Brand but in an entirely new way. The result is a collection of images that embody the lively aspirations of the Target Brand. It’s living and breathing. Recognized by Clio, Communication Arts. Graphis and How Magazine. Expect to see it for a while.";
-				})();
 			}, 800)
 		}
 	}
