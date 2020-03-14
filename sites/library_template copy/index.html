@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Thumbnail to fullscreen page transition</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/pup6lhb.css">
+  <link rel="stylesheet" href="https://use.typekit.net/pup6lhb.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/pup6lhb.css">
+<link rel="stylesheet" href="https://use.typekit.net/pup6lhb.css">
+
+
+<div class="container" ng-class="{'no-scroll': selected.length}" ng-app="app" ng-controller="mainCtrl">
+	<div class="page">
+		<div class="grid">
+			<div class="grid-item" ng-repeat="item in boxes">
+				<box class="box" item="item" on-select="selectBox" ng-class="{'selected': selected[0].item.name == item.name}"></box>
+			</div>
+		</div>
+	</div>
+	<div class="fullscreen-background top-up" ng-show="selected.length" ng-style="{'background-image': 'url(' + selected[0].item.image + ')'}"></div>
+	<div class="scroller" ng-show="selected.length">
+		<a class="close-button" ng-click="clearSelection()">
+			<i class="material-icons">close</i>
+		</a>
+		<h1>{{selected[0].item.name}}</h1>
+		<div big-box ng-repeat="item in selected" class="box on-top" position="item.position" selected="item.item">
+			<img ng-src="{{item.item.image}}" alt="" />
+			<div class="content">
+				<h2>TARGET</h2>
+				<p>Building on Target’s legacy of transforming and impactful Branding work, this was the fist effort done in nearly five years. The goal was to make sure no one felt that gap while creating something entirely new. It has become a major campaign as concept stores, in-store, out of home, digital, social and even new Target shopping bags. Starting with a complete deconstruction of the Bullseye, yet keeping life squarely in the center, it remains immediately recognizable as Target, often without a logo at all. Maintaining the spirit and aspirations of the Brand but in an entirely new way. The result is a collection of images that embody the lively aspirations of the Target Brand. It’s living and breathing. Recognized by Clio, Communication Arts. Graphis and How Magazine. Expect to see it for a while.</p>
+				</div>
+		</div>
+		
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-animate.min.js'></script>
+<script src='https://codepen.io/ste-vg/pen/zBVakw.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
