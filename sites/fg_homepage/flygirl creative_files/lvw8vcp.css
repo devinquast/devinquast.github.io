@@ -1,0 +1,61 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * geom-graphic:
+ *   - http://typekit.com/eulas/00000000000000003b9b12ab
+ *   - http://typekit.com/eulas/00000000000000003b9b12ae
+ *   - http://typekit.com/eulas/00000000000000003b9b12b2
+ * mrs-eaves-roman-lining:
+ *   - http://typekit.com/eulas/00000000000000003b9adc09
+ * nudista-web:
+ *   - http://typekit.com/eulas/00000000000000003b9afb6a
+ *   - http://typekit.com/eulas/00000000000000003b9afb6d
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2020-03-13 17:31:05 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=lvw8vcp&ht=tk&f=1793.1797.28480.37337.37340.37344&a=40337&app=typekit&e=css");
+
+@font-face {
+font-family:"nudista-web";
+src:url("https://use.typekit.net/af/18401e/00000000000000003b9afb6a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/18401e/00000000000000003b9afb6a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/18401e/00000000000000003b9afb6a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"nudista-web";
+src:url("https://use.typekit.net/af/f75c20/00000000000000003b9afb6d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/f75c20/00000000000000003b9afb6d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/f75c20/00000000000000003b9afb6d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"mrs-eaves-roman-lining";
+src:url("https://use.typekit.net/af/f04c9e/00000000000000003b9adc09/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/f04c9e/00000000000000003b9adc09/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/f04c9e/00000000000000003b9adc09/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"geom-graphic";
+src:url("https://use.typekit.net/af/640157/00000000000000003b9b12ab/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/640157/00000000000000003b9b12ab/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/640157/00000000000000003b9b12ab/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"geom-graphic";
+src:url("https://use.typekit.net/af/4f27d6/00000000000000003b9b12ae/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/4f27d6/00000000000000003b9b12ae/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/4f27d6/00000000000000003b9b12ae/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"geom-graphic";
+src:url("https://use.typekit.net/af/952e71/00000000000000003b9b12b2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/952e71/00000000000000003b9b12b2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/952e71/00000000000000003b9b12b2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+.tk-nudista-web { font-family: "nudista-web",sans-serif; }
+.tk-mrs-eaves-roman-lining { font-family: "mrs-eaves-roman-lining",sans-serif; }
+.tk-geom-graphic { font-family: "geom-graphic",sans-serif; }
